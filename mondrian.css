@@ -9,12 +9,12 @@ body {
 	width: 60%;
 	height: 100%;
 }
-/* wide column is the bottom column in the block display and the left column in flex display */
+
 .narrow-col {
 	width: 40%;
 	height: 100%;
 }
-/* size measurments for all bozes used */
+
 .box {
 	width: 100%;
 	height: 50%;
@@ -25,7 +25,7 @@ body {
 .yellow {background-color: #FAE317;}
 .grey {background-color: #D3D3D3;}
 
-/*aligns the content by centering it in the display flex format as well*/
+/* https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering/ */
 
 .center-horizontal {
 	align-items: center;
@@ -50,8 +50,16 @@ body {
 	margin: 0;
 	display: block;
 }
-/* discription of what to do when the screen is manually resized */
 
+
+ .wide-col {
+		width: 100%;
+		height: 60%;
+  }
+ .narrow-col {
+		width: 100%;
+		height: 40%;
+		display:flex;
   }
   .box {
 	width: 100%;
